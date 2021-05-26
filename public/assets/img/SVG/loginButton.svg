@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="304.691" height="49.746" viewBox="0 0 304.691 49.746">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f19058"/>
+      <stop offset="1" stop-color="#f25432"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_10982" data-name="Group 10982" transform="translate(-491.718 -532.112)">
+    <g id="CTA-account" transform="translate(491.718 532.112)">
+      <path id="Rectangle" d="M0,7.107A7.107,7.107,0,0,1,7.107,0H297.585a7.106,7.106,0,0,1,7.106,7.107V42.639a7.106,7.106,0,0,1-7.106,7.106H7.107A7.106,7.106,0,0,1,0,42.639Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <text id="Create_Account" data-name="Create Account" transform="translate(151.48 29.535)" fill="#fff" font-size="14" font-family="Helvetica"><tspan x="-19.462" y="0">Log In</tspan></text>
+    </g>
+  </g>
+</svg>

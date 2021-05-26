@@ -1,0 +1,31 @@
+.financeSection{
+    position: relative;
+}
+.financeImg {
+    background-image: url(../../../container/img/SVG/bg-finance.svg);
+    height: 60vh;
+    background-position: top;
+    background-attachment: fixed;
+}
+.financeText{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.financeText h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 3rem;   
+}
+.financeText h1{
+    color: white;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.financeText {
+    color: white;
+    max-width: 30%;
+    font-size: 1.5rem;
+}

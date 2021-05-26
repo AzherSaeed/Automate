@@ -1,0 +1,83 @@
+.VehicalTypeSection{
+    background-image: url(../../../container/img/bg-types.png);
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 12%, 100% 0, 100% 100%, 0 100%, 0 0);
+    margin: 0;
+    padding: 0;
+}
+.main-row{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width : 900px){
+    .VehicalTypeSection{
+        clip-path: none;
+    }
+}
+.vehical-cars{
+    margin-top: 10%;
+    padding: 20px;
+}
+.cars img {
+    max-width: 150rem;
+    height: 12rem;
+    margin: 0.5rem;
+    
+}
+.cars img:hover {
+   border: 2px solid #F25C37;
+   border-radius: 10px;
+}
+.cars{
+    margin: 4rem;
+}
+.carstext{
+    margin-top: 28%;
+    border-left: 2px solid #F25C37;
+}
+@media (max-width : 760px){
+    .carstext{
+       margin: 0;
+       padding: 0;
+        border: none;
+    }
+}
+.carstext h3{
+    color: #F25C37;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1%;
+}
+.carstext h1{
+   line-height: 200%;
+    font-size: 4rem;
+    color: white;
+    font-weight: 600;
+    line-height: 1.9;
+}
+.carstext p {
+    line-height: 200%;
+    font-size: 1.8rem;
+    color: white;
+}
+.logo-part img{
+   width: 80%;  
+}
+.main-combineCars{
+    position: relative;
+}
+.sub-combineCars{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+@media (max-width : 770px){
+    .logo-part {
+        margin-bottom: 15%;
+    }
+}

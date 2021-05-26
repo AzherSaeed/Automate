@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95" height="95" viewBox="0 0 95 95">
+  <defs>
+    <filter id="Rectangle_448" x="0" y="0" width="95" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Google" transform="translate(-42.5 19.5)">
+    <g transform="matrix(1, 0, 0, 1, 42.5, -19.5)" filter="url(#Rectangle_448)">
+      <rect id="Rectangle_448-2" data-name="Rectangle 448" width="50" height="50" rx="8" transform="translate(22.5 19.5)" fill="#39579a"/>
+    </g>
+    <g id="Group" transform="translate(84 14)">
+      <g id="facebook-logo" transform="translate(0)">
+        <path id="Path" d="M11.446,0,8.594,0C5.388,0,3.317,2.125,3.317,5.414v2.5H.449A.449.449,0,0,0,0,8.359v3.617a.449.449,0,0,0,.449.449H3.317v9.127A.448.448,0,0,0,3.766,22H7.508a.449.449,0,0,0,.449-.449V12.425h3.354a.448.448,0,0,0,.449-.449V8.359a.449.449,0,0,0-.449-.449H7.957V5.794c0-1.017.242-1.533,1.567-1.533h1.922a.449.449,0,0,0,.448-.449V.453A.449.449,0,0,0,11.446,0Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

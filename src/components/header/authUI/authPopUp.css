@@ -1,0 +1,29 @@
+.authPopUp{
+    background-color: rgba(0, 0, 0, 0.856);
+    /* clip-path: polygon(23% 0, 29% 6%, 100% 6%, 100% 100%, 0 100%, 0 6%, 17% 6%);
+    -webkit-clip-path : polygon(23% 0, 29% 6%, 100% 6%, 100% 100%, 0 100%, 0 6%, 17% 6%); */
+   margin: 0;
+    position: absolute;
+    top: 26%;
+    left: 80%;
+    transform: translate(-50% , -50%);
+    padding: 0.5rem 2rem;
+    border-radius: 5%;
+    border: 2px solid #F25C37;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.authPopUp img {
+    margin: 5px;
+    display: inline-block;
+}
+@media (max-width : 967px) {
+    .authPopUp {
+        display: none;
+    }
+}
+@media(max-width : 1200px){
+    .authPopUp{
+        top: 25%;
+    }
+}

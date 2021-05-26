@@ -1,0 +1,104 @@
+
+.about-heading h4{
+    line-height: 1%;
+    text-align: center;
+    padding: 5rem;
+    font-size: 2rem;
+    color: #F25C37;
+}
+.about-heading h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1%;
+}
+@media(max-width : 600px){
+    .about-heading h1 {
+        font-size: 3rem;
+    }
+}
+.about-heading p{
+    padding: 3rem 22rem;
+    text-align: center;
+    font-size: 2rem;   
+}
+@media (max-width : 600px){
+    .about-heading p {
+        padding: 3rem 13rem;
+    }
+}
+.carlist{
+    padding: 3rem 11rem;
+}
+.main-badge{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+.badgeimg img{
+    max-width: 100%;
+    
+}
+@media (max-width : 600px ){
+    .badgeimg img{
+        max-width: 70%;
+        
+    }
+}
+@media (max-width : 900px ){
+    .badgeimg img{
+        max-width: 80%;
+        
+    }
+}
+.badgeimg{
+    margin: 5rem;
+    width: 40%;
+}
+@media (max-width : 980px) {
+    .badgeimg{
+        display: none;
+    }
+}
+.car-heading {
+    padding: 2rem;
+}
+.car-heading h2 {
+    color: #F25C37;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.car-heading p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+@media (max-width : 970px) {
+    .car-heading h2 {
+        padding: 3rem;
+        border-left: 2px solid lightgray;
+        height: 10rem;
+        position: absolute;
+        left: 10%;
+        margin-left: -3px;
+        top: 0;
+    }
+    .car-heading p {
+        padding: 3rem 0rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+@media (max-width : 580px){
+    .car-heading h2 {
+       border: none;
+       position: absolute;
+       left: 33%;
+       font-size: 5rem;
+       margin: 0;
+       padding: 0;
+    }
+}
+@media (max-width : 580px){
+    .car-heading p {
+       font-size: 3rem;
+    }
+}

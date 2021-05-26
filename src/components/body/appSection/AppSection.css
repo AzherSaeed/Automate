@@ -1,0 +1,17 @@
+.appsection{
+    text-align: center;
+    margin-top: 10rem;
+}
+.text h1{
+    font-size: 5rem;
+    line-height: 2;
+}
+.text p {
+    font-size: 2rem;
+    max-width: 50%;
+    margin-left: 25%;
+}
+.appdesign img{
+    width: 20%;
+    margin: 5rem;
+}

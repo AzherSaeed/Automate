@@ -1,0 +1,212 @@
+.header-bgImage{
+    height: 130vh;
+    background-image: linear-gradient(to bottom , transparent,
+    rgba(0, 0, 0, 0.829) ), url(../../container/img/SVG/Bitmap.svg);
+    background-position: top;
+    background-size: cover;
+    /* clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 100%, 0 0); */
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 92%, 0 83%);
+    position: relative;
+}
+.header-text{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    text-align: center;
+    
+}
+.heading_text_first{
+    display: block;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+    float: left;
+    
+}
+
+.heading_text_first{
+    animation-name: fade-in-top;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  @keyframes fade-in-top {
+    0%{
+      -webkit-transform: translateY(-50px);
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100%{
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+.heading_text_center{
+    display: block;
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+    line-height: 70%;
+}
+.heading_text_center{
+    animation-name: focus-in-contract;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  @keyframes focus-in-contract {
+    0%{
+      letter-spacing: 1em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100%{
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+
+.heading_text_last{
+    display: block;
+    text-transform: uppercase;
+    font-size: 4rem;
+    float: right;
+}
+
+.heading_text_last {
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  @keyframes appear {
+    0%{
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    60%{
+      opacity: 1;
+      -webkit-transform: scale3d(1,1,1);
+      transform: scale3d(1,1,1);
+    }
+  }
+  
+  
+.header-navBar {
+    top: 7%;
+    left: 50%;
+    position: absolute;
+    width: 70%;
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.856);
+    transform: translate(-50% , -50%);
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width : 600px) {
+    .header-navBar {
+        top: 5%;
+        left: 53%;
+        width: 102%;
+        border-radius: 0%;
+    }
+}
+.logofirst{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo img {
+    height: 11rem;
+    margin-top: -3rem;
+}
+.logo-heading {
+    color: #F25C37;
+    padding-top: 2rem;
+}
+@media (max-width : 970px){
+    .nav-icon{
+        display: none;
+    }
+}
+
+.circle img{
+    position: absolute;
+    left: 42%; 
+    width: 15%;
+    top: 105%;
+   
+}
+@media (max-width : 1000px) {
+    .circle {
+        display: none;
+    }
+    .header-bgImage{
+        clip-path: none;
+    }
+}
+ .productBar{
+    bottom: 20% ;
+    left: 50%;
+    position: absolute;
+    width: 80%;
+    height: auto;
+   background-image: linear-gradient(#F18F58, #F25C37);
+    transform: translate(-50% , -50%);
+    border-radius: 6rem;
+    color: white;
+}
+/* .productBar-inputs{
+    padding: 3rem;
+    
+}
+#email{
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    background-image: linear-gradient(#F18F58, #F25C37);
+    color: white;
+    border: 1.6px solid white;
+}
+
+.carimage{
+    margin: -2.5rem;
+} 
+
+.spacer{
+    flex: 0;
+} */
+.NavToggler{
+    position: absolute;
+    display: flex;
+    right: 0;
+    padding: 2.5rem 2rem;
+
+}
+@media (min-width : 970px){
+    .NavToggler{
+        display: none;
+    }
+}
+.personIcon{
+    border-right: 1px solid lightgray;
+}
+.personIcon a{
+    border: none;
+}
